@@ -1,0 +1,2 @@
+#include<iostream>
+using namespace std;int main(){int t;cin>>t;while(t--){int n,x,i,j,m=0;cin>>n;int a[100][100]={{0}};for(i=1;i<=n;i++)for(j=1;j<=i;j++){cin>>x;x+=a[i-1][j]>a[i-1][j-1]?a[i-1][j]:a[i-1][j-1];a[i][j]=x;m=m>x?m:x;}cout<<m<<"\n";}return 0;}
