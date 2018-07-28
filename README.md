@@ -14,4 +14,8 @@ Since initial commit, I am making sure no such file makes it to this repository.
 
 I believe I have solved the following problems differently than others.
 
-- [Adjacent Bit Counts](https://www.spoj.com/problems/GNYR09F/) | [My Solution](https://github.com/mrpandey/spoj/blob/master/solved/GNYR09F.cpp) : Common solution involves 2D dynamic programming technique with O(n^2) time ans space complexity. My solution takes O(n) time and O(1) space.
+- [Adjacent Bit Counts](https://www.spoj.com/problems/GNYR09F/) | [My Solution](https://github.com/mrpandey/spoj/blob/master/solved/GNYR09F.cpp) : Common solution involves 2D dynamic programming technique with O(n^2) time and O(n^2) space complexity. My solution takes O(n) time and O(1) space.
+
+#### License
+
+Licensed under [WTFPL](https://github.com/mrpandey/spoj/blob/master/LICENSE.md). You can do whatever you want to do with the code. You don't even need to attribute me.
